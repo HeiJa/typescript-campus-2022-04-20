@@ -1,0 +1,22 @@
+{
+  "name": "typescript-campus-2022-04-20",
+  "version": "1.0.0",
+  "description": "TypeScript Examples",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeiJa/typescript-campus-2022-04-20.git"
+  },
+  "author": "Jan Heider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeiJa/typescript-campus-2022-04-20/issues"
+  },
+  "homepage": "https://github.com/HeiJa/typescript-campus-2022-04-20#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
