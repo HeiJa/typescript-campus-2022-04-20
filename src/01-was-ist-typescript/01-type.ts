@@ -1,4 +1,5 @@
-function hello(myVar: any) {
+// @ts-ignore
+function hello(myVar) {
   if (typeof myVar === 'string') {
     console.log('String: :', myVar)
   } else if (typeof myVar === 'boolean') {

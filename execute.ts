@@ -1,4 +1,5 @@
-function printToConsole(message: any) {
+// @ts-ignore
+function printToConsole(message) {
   console.log(message)
 }
 
