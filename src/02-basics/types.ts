@@ -3,10 +3,24 @@ let someBoolean: boolean = true;
 let someNumber: number = 4711;
 let thisCanBeAny: any;
 let someArray: any[] = ['a string', 5, false];
-
 let thisIsUnknown: unknown = 'maybe a string';
+let letterCountFunc: (word: string) => number = (name) => name.length
+
+let thisIsStatic: 'Static' = 'Static'
+const thisIsStaticToo = 'Static'
+
 let thisIsUndefined: undefined = undefined;
 let thisIsNull: null = null;
+
+let someObject: {
+  name: string,
+  age: number,
+} = {
+  name: 'John',
+  age: 42,
+}
+
+const anotherObject: typeof someObject = {name: 'Hallo', age: 2}
 
 type User = {
   name: string,
