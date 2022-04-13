@@ -5,6 +5,7 @@ let thisCanBeAny: any;
 let someArray: any[] = ['a string', 5, false];
 let thisIsUnknown: unknown = 'maybe a string';
 let letterCountFunc: (word: string) => number = (name) => name.length
+let stringOrNumber: string | number = Math.random() > 0.5 ? 'near to 1' : 0
 
 let thisIsStatic: 'Static' = 'Static'
 const thisIsStaticToo = 'Static'
@@ -22,14 +23,22 @@ let someObject: {
 
 const anotherObject: typeof someObject = {name: 'Hallo', age: 2}
 
-type User = {
+type Person = {
   name: string,
   age: number,
 }
 
-let user: User = {
+interface OnlineIdentity {
+  email: string
+}
+
+type User = Person & OnlineIdentity
+interface IUser extends Person, OnlineIdentity {}
+
+const user: User = {
   name: 'John',
   age: 42,
+  email: 'john@example.com'
 }
 
 type Car = {

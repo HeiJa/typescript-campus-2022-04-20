@@ -15,3 +15,11 @@ Compile all files example:
 ```shell
 tsc
 ```
+
+
+## Useful References
+- [TypeScript Documentation](https://www.typescriptlang.org)
+- [TypeScript Playground](https://www.typescriptlang.org/play)
+- [Json2TS](http://json2ts.com/)
+- [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) (npm -> @types/**)
+- [TSConfig Reference](https://www.typescriptlang.org/tsconfig)
