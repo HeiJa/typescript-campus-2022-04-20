@@ -12,6 +12,7 @@ myButton.addEventListener('click', ev => {
     grd.addColorStop(1, "white");
 
     ctx.fillStyle = grd
+    ctx.fillRect(0, 0, myCanvas.width, myCanvas.height);
     ctx.font = "30px Arial"
     ctx.strokeText(myText.value, 50, 50)
   } else {
