@@ -23,3 +23,4 @@ tsc
 - [Json2TS](http://json2ts.com/)
 - [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) (npm -> @types/**)
 - [TSConfig Reference](https://www.typescriptlang.org/tsconfig)
+- [Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html)
