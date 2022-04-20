@@ -16,6 +16,33 @@ Compile all files example:
 tsc
 ```
 
+## Example Projects
+### Webpack Frontend App
+```shell
+cd ./examples/webpack
+
+# Installation
+npm install
+
+# Dev Mode
+npm run dev
+
+# Build
+npm run build
+```
+> Dev Server runs on http://localhost:8080
+
+### Rollup AWS Function Example
+```shell
+cd ./examples/rollup
+
+# Installation
+npm install
+
+# Build
+npm run build
+```
+
 
 ## Useful References
 - [TypeScript Documentation](https://www.typescriptlang.org)
