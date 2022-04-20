@@ -1,8 +1,12 @@
 let someString: string = 'Hello World!';
 let someBoolean: boolean = true;
 let someNumber: number = 4711;
+let anotherNumber: number = 4.5
+let notANumberButStillTypeNumber: number = Number('Hallo')
+
 let thisCanBeAny: any;
-let someArray: any[] = ['a string', 5, false];
+let someStringArray: string[] = ['red', 'green', 'blue']
+let someAnyArray: any[] = ['a string', 5, false];
 let thisIsUnknown: unknown = 'maybe a string';
 let letterCountFunc: (word: string) => number = (name) => name.length
 let stringOrNumber: string | number = Math.random() > 0.5 ? 'near to 1' : 0
